@@ -133,6 +133,18 @@ docker network inspect my-network
 
 ---
 
+## Структура проекта
+
+```
+.
+├── go-app/                 Go-приложение и его Dockerfile (задание 2)
+├── python-app/             Python-приложение и его Dockerfile (задание 4)
+├── rust-app/               Rust-приложение и его Dockerfile (задание 4)
+└── PROMPT_LOG.md           лог промптов
+```
+
+---
+
 ## Команды для очистки
 
 ```bash
@@ -146,3 +158,9 @@ docker network rm my-network
 # Удаление образов
 docker rmi go-app python-app rust-app
 ```
+
+---
+
+## Лог промптов
+
+Все промпты, по которым писался код, зафиксированы в [PROMPT_LOG.md](PROMPT_LOG.md).
